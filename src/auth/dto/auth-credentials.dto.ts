@@ -9,6 +9,6 @@ export class AuthCredentialsDto {
   @IsString()
   @MinLength(8)
   @MaxLength(20)
-  @Matches(/^(?=.{6,20}$)\D*\d/, { message: 'assword too weak' })
+  @Matches(/^(?=.{6,20}$)\D*\d/, { message: 'password too weak' })
   password: string;
 }
