@@ -1,0 +1,9 @@
+{
+  "db": {
+    "host": "localhost",
+    "type": "postgres",
+    "port": "5432",
+    "synchronize": "true"
+  },
+  "jwt": { "secret": "topSecret96" }
+}
