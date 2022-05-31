@@ -1,1 +1,1 @@
-web: node dist/main.js
+web: node NODE_ENV=production dist/main.js
